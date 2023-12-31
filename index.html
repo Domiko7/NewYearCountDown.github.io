@@ -56,6 +56,7 @@
         document.getElementById("hours").innerHTML = hours;
         document.getElementById("minutes").innerHTML = minutes;
         document.getElementById("seconds").innerHTML = seconds;
+        document.getElementById("milliseconds").innerHTML = milliseconds;
 
         if(distance < 0){
             clearInterval(X);
@@ -63,6 +64,7 @@
             document.getElementById("hours").innerHTML = "00";
             document.getElementById("minutes").innerHTML = "00";
             document.getElementById("seconds").innerHTML = "00";
+            document.getElementById("milliseconds").innerHTML = milliseconds;
         }
 
     },1000);
